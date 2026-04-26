@@ -1,1 +1,3 @@
-console.log("script has loaded");
+function changeText() {
+    document.getElementById("text").textContent = "this it the new text";
+}
